@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+<title>TravelBloom</title>
+</head>
+<body>
+    <nav><h1>TravelBloom</h1>
+        <ul>
+          <li><a href="./index.html" id="home">Home </a></li>
+          <li><a href="./about_Us.html" id="contact">About us</a></li>
+          <li><a href="./contact.html" id="contact">Contact Us </a></li>
+          <li><input type="text" id="searchInput" placeholder="distnetion or keyword">  </li>
+          <li><button id='btnSearch' onClick= "search()">Search</button>
+          <li><button id='btnclear' onClick="clear_button()">Clear</button>
+    
+        </ul>
+        </nav>
+
+        
+     <div id="introduction">
+        <h1>EXPLORE DREAM DESTINATION</h1>
+        <p> The Travel Recommendation App helps users explore popular travel destinations through 
+            an interactive and user-friendly interface. It allows users to search for beaches, 
+            temples, countries, or specific country names to view related cities along with images and descriptions.
+             The app dynamically fetches data from a structured JSON file to display relevant results. It provides a simple and efficient way to discover and plan travel destinations.
+        </p>
+     </div>
+
+     <div id="recommendations"></div>
+        
+
+
+   <script src="./travel_recommendation.js"></script>
+  
+</body>
+
+
+
+
+
+    </html>
